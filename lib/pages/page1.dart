@@ -59,7 +59,7 @@ class BottomSection extends StatelessWidget {
     label: '',
     ),
     BottomNavigationBarItem(
-        icon:Text('Imagine . Ariane Grande'),
+        icon:Text('Tout donné. Gims'),
     label: '',
     ),
     BottomNavigationBarItem(
@@ -197,6 +197,7 @@ class HeaderSection extends StatelessWidget {
               child: Text('Show all',
               style: TextStyle(fontSize: 13,
               color: Colors.blue),
+              
               ),
             )
           ],

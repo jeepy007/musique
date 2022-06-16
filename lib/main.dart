@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:musique/pages/page1.dart';
 import 'package:musique/pages/page2.dart';
 
+
+
 void main() {
   runApp(const MyApp());
 }
