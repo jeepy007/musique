@@ -2,6 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:musique/pages/music_list.dart';
 import 'page2.dart';
 import 'player_page.dart';
 
@@ -147,28 +148,28 @@ class HeaderSection extends StatelessWidget {
  class PlayListSection extends StatelessWidget {
   final List playList = [
     { 
-      'title':'titre 1',
+      'title':'Sapé comme jamais',
       'duration': '3,16',
       'played': false,
      },
      { 
-      'title':'titre 1',
-      'duration': '3,16',
+      'title':'Tout donné',
+      'duration': '3,26',
       'played': true,
      },
      { 
-      'title':'titre 1',
-      'duration': '3,16',
+      'title':'Corassol',
+      'duration': '3,56',
       'played': false,
      },
      { 
-      'title':'titre 1',
-      'duration': '3,16',
+      'title':'Gims ft Niska',
+      'duration': '4,16',
       'played': false,
      },
      { 
-      'title':'titre 1',
-      'duration': '3,16',
+      'title':'Gims ft Dadju',
+      'duration': '3,36',
       'played': false,
      },
 
@@ -203,7 +204,8 @@ class HeaderSection extends StatelessWidget {
          SizedBox(height: 20,),
          Column(
           children: playList.map((song) {
-            return Container(
+            return musiclist(song); 
+            /*Container(
               height: 70,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -225,7 +227,7 @@ class HeaderSection extends StatelessWidget {
                   
                 ],
               )
-            );
+            );*/
            }).toList()
          ),
          

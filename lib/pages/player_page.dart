@@ -138,7 +138,8 @@ class ArtistPictureSection extends StatelessWidget {
                   image: AssetImage('images/gims1.jpeg'),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
-                      Colors.blue.withOpacity(1), BlendMode.darken),
+                      Colors.blue.withOpacity(1), BlendMode.darken
+                      ),
                 ),
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(50),
