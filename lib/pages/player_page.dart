@@ -58,7 +58,7 @@ class ImageAuthor extends StatelessWidget {
       height: 550,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('images/ariana.jpeg'),
+          image: AssetImage('images/gims.jpeg'),
           fit: BoxFit.cover,
         ),
       ),
@@ -88,7 +88,7 @@ class TitleSection extends StatelessWidget {
             ),
           ),
           Text(
-            'Ariana Grande',
+            'Maitre Gims',
             style: GoogleFonts.lato(
               fontWeight: FontWeight.w800,
               fontSize: 17.0,
@@ -135,7 +135,7 @@ class ArtistPictureSection extends StatelessWidget {
               width: 250,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('images/ariana.jpeg'),
+                  image: AssetImage('images/gims1.jpeg'),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
                       Colors.blue.withOpacity(1), BlendMode.darken),
@@ -178,7 +178,7 @@ class PlayingMusicTitle extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'Imagine',
+            'Tout donné',
             style: GoogleFonts.lato(
               fontWeight: FontWeight.w700,
               fontSize: 25.0,
@@ -187,7 +187,7 @@ class PlayingMusicTitle extends StatelessWidget {
           ),
           SizedBox(width: 3),
           Text(
-            'Ariana Grande',
+            'Maitre Gims',
             style: GoogleFonts.lato(
               fontWeight: FontWeight.w400,
               fontSize: 14.0,
@@ -227,7 +227,7 @@ class DurationSection extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            '1.08',
+            '1.28',
             style: GoogleFonts.lato(
               fontWeight: FontWeight.w400,
               fontSize: 14.0,
