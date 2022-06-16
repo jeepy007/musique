@@ -2,6 +2,8 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'page2.dart';
+import 'player_page.dart';
 
 
 
@@ -116,6 +118,12 @@ class HeaderSection extends StatelessWidget {
               bottom: 20,
 
               child: MaterialButton(onPressed: (() {
+                Navigator.push(context, 
+                MaterialPageRoute(builder: ((context) => PlayerPage()
+                )
+                ),
+                );
+                
                 
               }),
               color: Colors.blue, 

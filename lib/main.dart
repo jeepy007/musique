@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:musique/pages/page1.dart';
+import 'package:musique/pages/page2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Page1(),
+      home:Page1(),
     );
   }
 }
